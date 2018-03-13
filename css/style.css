@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700;&subset=latin-ext');
+* {
+	box-sizing: border-box;
+
+}
+body {
+	font-family: "Open Sans";
+	margin: 0;
+	background-color: #dcf4ef;
+}
+.board {
+	width: 100%;
+	margin: 0 auto;
+}
+h1 {
+	text-align: center;	
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: 10px;
+}
+.create-column, .add-card {
+
+	display: block;
+	margin: 0 auto;
+}
+.create-column:hover, .add-card:hover {
+	color: white;
+	background-color: #64727a;
+}
+
+.column-container {
+	padding-top: 20px;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.column {
+	min-width: 350px;
+   	border: 5px solid white;
+   	border-radius: 10px;
+   	margin: 5px;
+    min-height: 400px;
+    box-shadow: 2px 2px 55px #444;
+    background-color: #eff1f2;
+}
+.column-title {
+	text-align: center;
+}
+.btn-delete {
+	background-color: #64727a;
+	color: white;
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+.column-divide {
+	
+	border: 2px solid #dbdee0;
+	margin: 6px 0;
+}
+ul {
+    list-style: none;
+    padding-left:0;
+    width: 100%;
+    float:left;
+}
+.btn-card-rmv {
+	float: left;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	border: none;
+	margin-right: 10px;
+	
+}
+.card-description {
+	padding-top: 4px;
+
+}
